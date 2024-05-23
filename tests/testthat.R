@@ -10,3 +10,4 @@ library(testthat)
 library(ggdaynight)
 
 test_check("ggdaynight")
+

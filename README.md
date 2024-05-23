@@ -1,8 +1,19 @@
-# ggdaynight
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/GabrielSlPires/ggdaynight/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/GabrielSlPires/ggdaynight/actions/workflows/R-CMD-check.yaml)
+[![CRAN status](https://www.r-pkg.org/badges/version/ggdaynight)](https://CRAN.R-project.org/package=ggdaynight)
+<!-- badges: end -->
+
+# ggdaynight <img src="man/figures/logo.png" align="right" height="139" alt="" />
 
 `ggdaynight` is an R package that adds a day/night pattern to ggplot2 plots. Daytime is represented by rectangles filled with a specified `day_fill` color and nighttime by rectangles filled with a specified `night_fill` color. The pattern is created along the x-axis, which must be a datetime variable.
 
 ## Installation
+
+You can install the released version of `ggdaynight` from CRAN:
+
+```
+install.packages("ggdaynight")
+```
 
 You can install the development version of `ggdaynight` from GitHub with:
 
